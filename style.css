@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.product-listing {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.filters {
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filters h2 {
+    margin-bottom: 10px;
+}
+
+.filters label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.filters select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.product-cards {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    width: 30%;
+    margin: 0 0 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    padding: 10px;
+    margin: 0;
+}
+
+.product-card p.price {
+    padding: 0 10px;
+    margin: 0;
+    font-weight: bold;
+    color: #e44d26; /* Amazon's primary color */
+}
+
+.product-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
